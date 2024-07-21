@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6DD69483-AB6D-FDA2-C075-D05DC640804F" name="sala">
+<createdBy>poczt</createdBy>
+<createdTime>2023-05-07 12:41:53 UTC</createdTime>
+<ownerDesignName>Schemat_kino</ownerDesignName>
+<engineerTo>
+<item key="31A539DC-F7F3-CA64-5306-D35E3F374570" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Numer sali" id="55C65204-4EE0-7057-C7A7-71B02454E405">
+<createdBy>poczt</createdBy>
+<createdTime>2023-05-07 12:42:10 UTC</createdTime>
+<ownerDesignName>Schemat_kino</ownerDesignName>
+<engineerTo>
+<item key="31A539DC-F7F3-CA64-5306-D35E3F374570" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Liczba miejsc" id="A746BBBA-1831-6AB4-6480-CD6FEEA52382">
+<createdBy>poczt</createdBy>
+<createdTime>2023-05-07 12:42:37 UTC</createdTime>
+<ownerDesignName>Schemat_kino</ownerDesignName>
+<engineerTo>
+<item key="31A539DC-F7F3-CA64-5306-D35E3F374570" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ED77E528-69C5-8965-6ED4-ECAAB9ED265B" name="sala PK">
+<createdBy>poczt</createdBy>
+<createdTime>2023-05-07 12:42:19 UTC</createdTime>
+<ownerDesignName>Schemat_kino</ownerDesignName>
+<engineerTo>
+<item key="31A539DC-F7F3-CA64-5306-D35E3F374570" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>55C65204-4EE0-7057-C7A7-71B02454E405</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

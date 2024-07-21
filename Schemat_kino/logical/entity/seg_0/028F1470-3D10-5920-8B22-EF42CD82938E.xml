@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="028F1470-3D10-5920-8B22-EF42CD82938E" name="rezerwacja">
+<createdBy>poczt</createdBy>
+<createdTime>2023-05-21 10:40:50 UTC</createdTime>
+<ownerDesignName>Schemat_kino</ownerDesignName>
+<engineerTo>
+<item key="31A539DC-F7F3-CA64-5306-D35E3F374570" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id biletu" id="846DEDFD-2A09-BE8D-5131-5EAB522BB963">
+<createdBy>poczt</createdBy>
+<createdTime>2023-05-21 10:45:58 UTC</createdTime>
+<ownerDesignName>Schemat_kino</ownerDesignName>
+<engineerTo>
+<item key="31A539DC-F7F3-CA64-5306-D35E3F374570" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data zakupu" id="A259FB24-FE26-D158-1FB1-56BAEA4E0508">
+<createdBy>poczt</createdBy>
+<createdTime>2023-05-21 12:50:22 UTC</createdTime>
+<ownerDesignName>Schemat_kino</ownerDesignName>
+<engineerTo>
+<item key="31A539DC-F7F3-CA64-5306-D35E3F374570" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email klienta" id="8CAF5C65-1DE3-D779-4E79-91D022E71D1F">
+<createdBy>poczt</createdBy>
+<createdTime>2023-05-21 10:47:26 UTC</createdTime>
+<generatorID>0C6610E9-9148-DB9B-493F-F9B4F3AC5651</generatorID>
+<ownerDesignName>Schemat_kino</ownerDesignName>
+<engineerTo>
+<item key="31A539DC-F7F3-CA64-5306-D35E3F374570" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B042A580-77ED-4274-6999-ED4DE5ACDB64</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numer sali" id="995C226B-0878-192B-2E95-AA277C90951E">
+<createdBy>poczt</createdBy>
+<createdTime>2023-05-21 13:15:52 UTC</createdTime>
+<generatorID>859B4935-A34C-09EF-9824-D9430A9D3A6A</generatorID>
+<ownerDesignName>Schemat_kino</ownerDesignName>
+<engineerTo>
+<item key="31A539DC-F7F3-CA64-5306-D35E3F374570" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2D14CBB3-9863-385E-624A-2B1776CA2438</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa promocji" id="F56E766C-DEAF-E26B-D696-6827E6649199">
+<createdBy>poczt</createdBy>
+<createdTime>2023-05-21 11:38:46 UTC</createdTime>
+<generatorID>45D88212-D974-860A-45E5-9D42DAB54BE1</generatorID>
+<ownerDesignName>Schemat_kino</ownerDesignName>
+<engineerTo>
+<item key="31A539DC-F7F3-CA64-5306-D35E3F374570" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1FABCB14-DD79-8A91-C54A-74B44F9C8BC6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data rozpoczęcia" id="4DDAC17A-61A6-D2F8-6ED0-895A162B0C04">
+<createdBy>poczt</createdBy>
+<createdTime>2023-05-21 14:04:50 UTC</createdTime>
+<generatorID>45D88212-D974-860A-45E5-9D42DAB54BE1</generatorID>
+<ownerDesignName>Schemat_kino</ownerDesignName>
+<engineerTo>
+<item key="31A539DC-F7F3-CA64-5306-D35E3F374570" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6BF3C117-D715-168E-6BB1-3E13859C3AA4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Czas i data rozpoczęcia" id="93EB06C2-28AE-2F8E-C6FE-84FA41952745">
+<createdBy>poczt</createdBy>
+<createdTime>2023-05-21 14:06:13 UTC</createdTime>
+<generatorID>859B4935-A34C-09EF-9824-D9430A9D3A6A</generatorID>
+<ownerDesignName>Schemat_kino</ownerDesignName>
+<engineerTo>
+<item key="31A539DC-F7F3-CA64-5306-D35E3F374570" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E9799AE4-BF63-9DD6-CC10-CBCB20BAEA7E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2F090029-7399-BD8D-D814-A123C6A6EAB0" name="bilet PK">
+<createdBy>poczt</createdBy>
+<createdTime>2023-05-21 10:44:26 UTC</createdTime>
+<ownerDesignName>Schemat_kino</ownerDesignName>
+<engineerTo>
+<item key="31A539DC-F7F3-CA64-5306-D35E3F374570" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>846DEDFD-2A09-BE8D-5131-5EAB522BB963</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

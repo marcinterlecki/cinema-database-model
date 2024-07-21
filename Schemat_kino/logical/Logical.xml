@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="AA8FDA51-6AAA-296D-8B78-DFB5F0CE38A7" mainViewID="3BA71C08-E3E3-A403-91E8-2428D4E01E9B">
+<createdBy>poczt</createdBy>
+<createdTime>2023-05-07 12:10:35 UTC</createdTime>
+<ownerDesignName>Schemat_kino</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

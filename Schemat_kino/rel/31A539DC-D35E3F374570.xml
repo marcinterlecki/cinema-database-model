@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="31A539DC-F7F3-CA64-5306-D35E3F374570" mainViewID="03BFEB6E-D1C5-97A1-4B03-ADEDCCC6299E">
+<createdBy>poczt</createdBy>
+<createdTime>2023-05-07 12:10:39 UTC</createdTime>
+<ownerDesignName>Schemat_kino</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

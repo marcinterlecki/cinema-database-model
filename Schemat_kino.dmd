@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Schemat_kino" id="70B6F017-5E1C-3E16-F1BB-33146926252E" version="3.5">
+<createdBy>poczt</createdBy>
+<createdTime>2023-05-07 12:10:35 UTC</createdTime>
+<ownerDesignName>Schemat_kino</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>70B6F017-5E1C-3E16-F1BB-33146926252E</designId>
+</OSDM_Design>

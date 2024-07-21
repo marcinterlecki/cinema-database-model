@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relacja" directorySegmentName="seg_0" id="64D65156-13B6-AD04-B1B8-BDFBF27F5E74">
+<createdBy>poczt</createdBy>
+<createdTime>2023-05-07 12:24:43 UTC</createdTime>
+<ownerDesignName>Schemat_kino</ownerDesignName>
+<engineerTo>
+<item key="31A539DC-F7F3-CA64-5306-D35E3F374570" value="true"/>
+</engineerTo>
+<sourcePk>3084FCC9-22BE-699B-51A3-8B79297BC395</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>wyśwetlany</nameOnSource>
+<nameOnTarget>wyświetla</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>93EDE552-0037-4A3E-AFD1-28E036F30C1B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6A48E2FE-A5B0-3003-AFC6-5B0D805F47A8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

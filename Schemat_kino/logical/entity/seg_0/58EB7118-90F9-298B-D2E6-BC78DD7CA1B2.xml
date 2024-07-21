@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="58EB7118-90F9-298B-D2E6-BC78DD7CA1B2" name="cennik">
+<createdBy>poczt</createdBy>
+<createdTime>2023-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>Schemat_kino</ownerDesignName>
+<engineerTo>
+<item key="31A539DC-F7F3-CA64-5306-D35E3F374570" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cena" id="2F7701B3-B427-7E3D-A509-154AFD88922B">
+<createdBy>poczt</createdBy>
+<createdTime>2023-05-21 13:56:24 UTC</createdTime>
+<ownerDesignName>Schemat_kino</ownerDesignName>
+<engineerTo>
+<item key="31A539DC-F7F3-CA64-5306-D35E3F374570" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Typ biletu" id="16C1E581-C192-2280-F12E-9AD19857785C">
+<createdBy>poczt</createdBy>
+<createdTime>2023-05-21 13:56:49 UTC</createdTime>
+<ownerDesignName>Schemat_kino</ownerDesignName>
+<engineerTo>
+<item key="31A539DC-F7F3-CA64-5306-D35E3F374570" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numer sali" id="5DA9F87C-48F3-D734-C161-6AE32E8B11AE">
+<createdBy>poczt</createdBy>
+<createdTime>2023-05-21 14:09:03 UTC</createdTime>
+<generatorID>A91534E4-5725-C9B4-3D6B-AD422843676A</generatorID>
+<ownerDesignName>Schemat_kino</ownerDesignName>
+<engineerTo>
+<item key="31A539DC-F7F3-CA64-5306-D35E3F374570" value="true"/>
+</engineerTo>
+<referedAttribute>2D14CBB3-9863-385E-624A-2B1776CA2438</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Czas i data rozpoczęcia" id="DB4E25CD-71DB-D3A1-4101-32707967F1D3">
+<createdBy>poczt</createdBy>
+<createdTime>2023-05-21 14:09:03 UTC</createdTime>
+<generatorID>A91534E4-5725-C9B4-3D6B-AD422843676A</generatorID>
+<ownerDesignName>Schemat_kino</ownerDesignName>
+<engineerTo>
+<item key="31A539DC-F7F3-CA64-5306-D35E3F374570" value="true"/>
+</engineerTo>
+<referedAttribute>E9799AE4-BF63-9DD6-CC10-CBCB20BAEA7E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5C488364-B0D7-8D79-5737-9BD2813A7AF5" name="cennik PK">
+<createdBy>poczt</createdBy>
+<createdTime>2023-05-21 14:04:16 UTC</createdTime>
+<ownerDesignName>Schemat_kino</ownerDesignName>
+<engineerTo>
+<item key="31A539DC-F7F3-CA64-5306-D35E3F374570" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5DA9F87C-48F3-D734-C161-6AE32E8B11AE</attributeRef>
+<attributeRef>DB4E25CD-71DB-D3A1-4101-32707967F1D3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

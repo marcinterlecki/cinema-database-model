@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="3C3E3829-1F44-21AA-46F2-2881DE33758E">
+<createdBy>poczt</createdBy>
+<createdTime>2023-05-07 12:10:35 UTC</createdTime>
+<ownerDesignName>Schemat_kino</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

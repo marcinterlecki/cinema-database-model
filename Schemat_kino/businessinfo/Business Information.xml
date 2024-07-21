@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="5D4954CB-FD59-2305-0794-566020A6E735">
+<createdBy>poczt</createdBy>
+<createdTime>2023-05-07 12:10:35 UTC</createdTime>
+<ownerDesignName>Schemat_kino</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>
